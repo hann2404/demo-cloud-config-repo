@@ -1,0 +1,3 @@
+test-value: master:application.yml
+test: 
+  application: 1
