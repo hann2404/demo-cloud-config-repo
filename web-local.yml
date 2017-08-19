@@ -1,0 +1,18 @@
+test-value: master:web-local.yml
+test:
+  web-local: 1
+
+endpoints:
+  enabled: false
+  env:
+    enabled: true
+  refresh:
+    enabled: true
+
+management:
+  context-path: /admin
+  security:
+    enabled: false
+
+server:
+  port: 8000

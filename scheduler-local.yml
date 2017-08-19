@@ -1,0 +1,9 @@
+test-value: master:scheduler-local.yml
+test:
+  scheduler-local: 1
+
+cron:
+  test: "50 0/1 * * * *"
+  messageJP: "20 0/1 * * * *"
+  messageKR: "30 0/1 * * * *"
+  database: "40 0/1 * * * *"

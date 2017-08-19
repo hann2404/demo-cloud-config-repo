@@ -1,0 +1,12 @@
+test-value: master:application.yml
+test: 
+  application: 1
+
+# spring:
+#   jackson:
+#     date-format: yyyy-MM-dd HH:mm:ss
+#     time-zone: UTC
+#     property-naming-strategy: SNAKE_CASE
+#     deserialization:
+#       FAIL_ON_UNKNOWN_PROPERTIES: false
+#     default-property-inclusion: NON_NULL
